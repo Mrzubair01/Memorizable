@@ -21,7 +21,7 @@ function Input() {
           id="todo"
           type="text"
           placeholder="Enter your Todo"
-          className="w-125 h-15 rounded-2xl px-3  cursor-pointer outline-none border-1 border-transparent text-xl font-semibold duration-200  hover:border-white "
+          className="w-125 h-15 rounded-2xl px-3  cursor-pointer outline-none border-1  text-xl bg-gradient-to-r from-slate-900 to-slate-700 font-semibold duration-200  border-white "
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           onKeyPress={(e) =>
